@@ -122,32 +122,3 @@ background-color: transparent ;
 font-size: 70px;
 color: rgba(202, 159, 59, 0.793);
 }
-.row{
-
-  display: flex;
-
-  height: 88%;
-
-  align-items: center;
-
-  margin-top: 10%;
-
-  margin-left: 5%;
-
-}
-
-.col{
-
-  flex-basis: 50%;
-
-}
-
-p{
-
-  color: #fff;
-
-  font-size: 15px;
-
-  line-height: 15px;
-
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
