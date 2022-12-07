@@ -1,5 +1,5 @@
 video {
-    object-fit: cover;
+    object-fit:cover;
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -7,8 +7,12 @@ video {
     left: 0;
   }
   
-  html, body {
+  body {
     height: 100%;
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    
   }
   html {
     font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -16,17 +20,15 @@ video {
     line-height: 1.4;
     scroll-behavior: smooth;
   }
-  body {
-    margin: 0;
-  }
   
   .viewport-header {
     position: relative;
-    height: 100vh;
+    height: 115vh;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor:default;
   }
   
   h1 {
@@ -93,3 +95,27 @@ ul li a:hover span:nth-child(2){
     
 }
 
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+#section1{
+  background-color: black;
+}
+
+#section2{
+  background-color: bisque;
+}
+
+#button{
+border: 0;
+border-radius: 10px;
+border:2px solid rgba(202, 159, 59, 0.793);
+padding-bottom: 15px;
+outline: none;
+cursor: pointer;
+background-color: transparent ;
+font-size: 70px;
+color: rgba(202, 159, 59, 0.793);
+}
