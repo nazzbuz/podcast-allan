@@ -14,6 +14,7 @@ video {
     font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 150%;
     line-height: 1.4;
+    scroll-behavior: smooth;
   }
   body {
     margin: 0;
@@ -43,3 +44,52 @@ video {
     font-size: 10vw;
     letter-spacing: -10px;
   }
+  ul.social{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    
+    right: 0%;
+    transform: translateY(-50%);
+}
+ul li{
+    margin: 10px 0;
+}
+ul li a{
+    text-decoration: none;
+    display: flex;
+    user-select: none;
+}
+ul li a span:nth-child(1){
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    background: var(--themeColor);
+    color: rgba(202, 159, 59, 0.793);
+    font-size: 23px;
+    display: grid;
+    place-items: center;
+    border-left: 5px solid var(--themeColor);
+    border-radius: 50px 0 0 50px;
+}
+ul li a span:nth-child(2){
+    position: fixed;
+    height: 50px;
+    background: var(--themeColor);
+    color: rgba(202, 159, 59, 0.793);
+    z-index: -1;
+    padding-left: 0;
+    margin-left: -100px;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    width: 0;
+    border-radius: 0 50px 50px 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+ul li a:hover span:nth-child(2){
+    width: 160px;
+    
+}
+
