@@ -29,6 +29,7 @@ video {
     align-items: center;
     justify-content: center;
     cursor:default;
+    top:20px;
   }
   
   h1 {
@@ -109,13 +110,44 @@ section{
 }
 
 #button{
+margin-top: 50px;
 border: 0;
-border-radius: 10px;
-border:2px solid rgba(202, 159, 59, 0.793);
-padding-bottom: 15px;
+border-radius: 100px ;
+border:2px solid transparent;
+padding-top:10px ;
+padding-bottom: 2px;
 outline: none;
 cursor: pointer;
 background-color: transparent ;
 font-size: 70px;
 color: rgba(202, 159, 59, 0.793);
 }
+.row{
+
+  display: flex;
+
+  height: 88%;
+
+  align-items: center;
+
+  margin-top: 10%;
+
+  margin-left: 5%;
+
+}
+
+.col{
+
+  flex-basis: 50%;
+
+}
+
+p{
+
+  color: #fff;
+
+  font-size: 15px;
+
+  line-height: 15px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
