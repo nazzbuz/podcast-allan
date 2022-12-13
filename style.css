@@ -213,7 +213,7 @@ text-decoration: none;
   }
   
   .info {
-      background: rgba(27, 26, 26, 0.9);
+      background: rgba(27, 26, 26, 0.9);  
       font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       transition: all 0.3s ease-out;
       transform: translateX(-100%);
