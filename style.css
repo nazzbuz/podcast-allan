@@ -33,7 +33,7 @@ video {
   }
   
   h1 {
-    font-family: 'Syncopate', sans-serif;
+    font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: rgba(202, 159, 59, 0.793);
     text-transform: uppercase;
     letter-spacing: 20px;
@@ -105,9 +105,6 @@ section{
   background-color: black;
 }
 
-#section2{
-  background:url(img/pexels-njay-minh-nhựt-10260159.mp4)
-}
 
 #buttonDown{
 margin-top: 50px;
@@ -138,3 +135,105 @@ text-decoration: none;
   color: rgba(202, 159, 59, 0.793);
   text-decoration: none;
   }
+
+  /*SECTION 2 */
+  #section2{
+    background: #FFF;
+  }
+
+  #container{
+    box-shadow: 0 15px 30px 1px grey;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5em auto;
+    height: 350px;
+    width: 800px;
+    
+    
+  }
+  
+  .rubrik{
+    padding-left:20px;
+  }
+  
+  .product-details {
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    padding: 50px;
+    height: 100%;
+    float: left;
+    width: 40%;
+  
+  }
+  
+  #container .product-details h1{
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", cursive;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    color: rgba(202, 159, 59, 0.793);
+    margin: 0;
+    
+  }
+  
+
+  
+  
+  #container .product-details > p {
+  font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    
+  }
+  .control{
+    position: absolute;
+    bottom: 20%;
+    left: 22.8%;
+    
+  }
+  
+  
+  .product-image {
+    transition: all 0.3s ease-out;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    float: right;
+    width: 45%;
+  }
+  
+  #container img {width: 100%;height: 100%;}
+
+  .summorize{
+    padding-left: 20px;
+  }
+  
+  .info {
+      background: rgba(27, 26, 26, 0.9);
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      transition: all 0.3s ease-out;
+      transform: translateX(-100%);
+      position: absolute;
+      line-height: 1.8;
+      text-align: left;
+      font-size: 20px;
+      cursor:auto;
+      color: #FFF;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+  }
+  
+  .info h2 {text-align: center}
+  .product-image:hover .info{transform: translateX(0);}
+  
+  .info ul li{transition: 0.3s ease;}
+  .info ul li:hover{transform: translateX(20px) scale(1.1);}
+  
+  .product-image:hover img {transition: all 0.3s ease-out;}
+  .product-image:hover img {transform: scale(1.2, 1.2);}
