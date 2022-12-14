@@ -135,7 +135,7 @@ text-decoration: none;
   }
 
   #buttonUp{
-    margin-top: 50px;
+    margin-top: 0;
     border: 0;
     border-radius: 100px ;
     font-family: 'Courier New', Courier, monospace;
@@ -148,6 +148,7 @@ text-decoration: none;
     font-size: 70px;
     color: rgba(202, 159, 59, 0.793);
     text-decoration: none;
+    align-items: center;
     }
   #container{
     box-shadow: 0 15px 30px 1px grey;
@@ -159,8 +160,8 @@ text-decoration: none;
     height: 350px;
     width: 800px;
     position: flex;
-    margin-top: 50vh;
-    /*ja*/
+    margin-top: 15vh;
+
   
     
   }
