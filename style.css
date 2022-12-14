@@ -1,3 +1,5 @@
+
+
 video {
     object-fit:cover;
     width: 100vw;
@@ -12,6 +14,8 @@ video {
     max-width: 100%;
     margin: 0;
     overflow-x: hidden;
+    background-color: #000;
+    z-index: -1;
     
   }
   html {
@@ -23,9 +27,9 @@ video {
   
   .viewport-header {
     position: relative;
-    height: 115vh;
+    height: 108vh;
     text-align: center;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
     cursor:default;
@@ -49,7 +53,7 @@ video {
   }
   ul.social{
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 50%;
     
     right: 0%;
@@ -108,6 +112,7 @@ section{
 
 #buttonDown{
 margin-top: 50px;
+font-family: 'Courier New', Courier, monospace;
 border: 0;
 border-radius: 100px ;
 border:2px solid transparent;
@@ -121,27 +126,29 @@ color: rgba(202, 159, 59, 0.793);
 text-decoration: none;
 }
 
-#buttonUp{
-  margin-top: 50px;
-  border: 0;
-  border-radius: 100px ;
-  border:2px solid transparent;
-  padding-top:10px ;
-  padding-bottom: 2px;
-  outline: none;
-  cursor: pointer;
-  background-color: transparent ;
-  font-size: 70px;
-  color: rgba(202, 159, 59, 0.793);
-  text-decoration: none;
-  }
+
 
   /*SECTION 2 */
   #section2{
     opacity: 1;
+    background-color: #000;
   }
 
-
+  #buttonUp{
+    margin-top: 50px;
+    border: 0;
+    border-radius: 100px ;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px solid transparent;
+    padding-top:10px ;
+    padding-bottom: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent ;
+    font-size: 70px;
+    color: rgba(202, 159, 59, 0.793);
+    text-decoration: none;
+    }
   #container{
     box-shadow: 0 15px 30px 1px grey;
     background-color: black;
@@ -151,7 +158,8 @@ text-decoration: none;
     margin: 5em auto;
     height: 350px;
     width: 800px;
-    
+    position: flex;
+    margin-top: 50vh;
     
   }
   
@@ -223,7 +231,7 @@ text-decoration: none;
       text-align: left;
       font-size: 20px;
       cursor:auto;
-      color: #000;
+      color: #fff;
       height: 100%;
       width: 100%;
       left: 0;
@@ -237,4 +245,8 @@ text-decoration: none;
   .info ul li:hover{transform: translateX(20px) scale(1.1);}
   
   .product-image:hover img {transition: all 0.3s ease-out;}
-  .product-image:hover img {transform: scale(1.2, 1.2);}
+  .product-image:hover img {transform: scale(1.2, 1.2);};
+
+   
+
+  /*NAVBAR SECTION 2 */
