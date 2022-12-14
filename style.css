@@ -138,8 +138,9 @@ text-decoration: none;
 
   /*SECTION 2 */
   #section2{
-    background: #FFF;
+    opacity: 1;
   }
+
 
   #container{
     box-shadow: 0 15px 30px 1px grey;
@@ -222,7 +223,7 @@ text-decoration: none;
       text-align: left;
       font-size: 20px;
       cursor:auto;
-      color: #FFF;
+      color: #000;
       height: 100%;
       width: 100%;
       left: 0;
