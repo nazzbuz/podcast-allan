@@ -273,7 +273,7 @@ text-decoration: none;
   /* SECTION 3 audio player*/
 
   #section3{
-    background-color: #fff;
+    background-color: #000;
     opacity: 1;
   }
 
@@ -293,80 +293,12 @@ text-decoration: none;
     text-decoration: none;
     align-items: center;
     }
- /* .player {
-    width: 50%;
-    background-color: #000;
-    display: grid;
-    grid-template-columns: 48px 1fr 48px;
-    grid-gap: 16px;
-    padding: 8px 24px;
-    position: relative;
-    border-radius: 64px;
-    margin-left: 46vh;
-    margin-top: 250px;
-}
-
-
-.controlAudio,#current {
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-block: 16px;
-}
-
-#playbtn {
-    font-size: 24px;
-    color: rgba(202, 159, 59, 0.793);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(202, 159, 59, 0.793);
-    cursor: pointer;
-}
-
-#playbtn:hover {
-    -webkit-text-fill-color: rgba(202, 159, 59, 0.793);
-}
-
-.infoAudio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 21px;
-    color: rgba(202, 159, 59, 0.793);
-}
-
-#current {
-    text-align: right;
-    color: rgba(202, 159, 59, 0.793);
-
-}
-
-.bar {
-    --space: -4px;
-    background-color: rgba(202, 159, 59, 0.793);
-    overflow: hidden;
-    left: var(--space);
-    right: var(--space);
-    top: var(--space);
-    bottom: var(--space);
-    position: absolute;
-    border-radius: 64px;
-    z-index: -2;
-}
-
-#progress {
-    display: blcok;
-    width: var(--progress,0%);
-    background-color: rgba(202, 159, 59, 0.793);
-    transition: all 1s linear;
-    height: 100%;
-}*/
 
 .audioContainer{
   margin-top: 20%;
 }
 .audio {
-  width: 480px;
+  width: 10px;
   height: 500px;
   position: relative;
 }
@@ -381,8 +313,8 @@ text-decoration: none;
 .audio .progress span {
   background-color: rgba(202, 159, 59, 0.793);
   width: 50px;
-  height: 5px;
-  border-radius: 4px;
+  height: 6px;
+  border-radius: 40x;
   display: block;
   position: absolute;
   transform-origin: 240px;
@@ -394,16 +326,16 @@ text-decoration: none;
 }
 
 .audio .progress span:hover {
-  background-color: rgba(255, 255, 255, 0.793);
-  opacity: 0.5;
+  background-color: rgba(255, 209, 209, 0.793);
+  opacity: 1;
   cursor: pointer;
 }
 
 .audio .current{
   font-size: 125px;
-  padding-left: 105px;
-  margin-bottom: -400px;
+  margin-bottom: -30px;
   margin-top: 40px;
+  
 }
 
 .audio .info {
@@ -509,7 +441,7 @@ text-decoration: none;
 
 .audio .song {
   text-align: center;
-  margin-block-end: 0.75rem;
+  margin-block-end: 2.75rem;
   color: #fff;
 }
 
@@ -528,6 +460,7 @@ text-decoration: none;
 .audio .time {
   text-align: center;
   color: transparent;
-  font-size: 20px;
+  font-display: None;
 }
-  /*NAVBAR SECTION 2 */
+
+  /*NAVBAR SECTION 2 & 3*/
