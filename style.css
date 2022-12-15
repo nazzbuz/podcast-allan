@@ -53,7 +53,7 @@ video {
   }
   ul.social{
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 50%;
     
     right: 0%;
@@ -151,7 +151,7 @@ text-decoration: none;
     align-items: center;
     }
   #container{
-    box-shadow: 0 15px 30px 1px grey;
+    box-shadow: 0 10px 20px 1px rgba(202, 159, 59, 0.793);
     background-color: black;
     text-align: center;
     border-radius: 5px;
