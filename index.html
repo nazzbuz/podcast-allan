@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dark Side</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Dark Side</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+   
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
+
 <body>
   <section id="section1">
     <video src="img/pexels-njay-minh-nhựt-10260159.mp4" autoplay loop playsinline muted></video>
@@ -18,7 +22,7 @@
       <h1>
         Explore
         <span>The Dark Sides</span>
-        <a href="#section2" id="buttonDown">⇩</a>
+        <a href="#section2" id="buttonSectionOne">⇩</a>
       </h1>
     </header>
     <ul class="social">
@@ -26,38 +30,71 @@
       <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span><span>Instagram</span></a></li>
       <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span><span>Twitter</span></a></li>
       <li><a href="#"><span><i class="fa-brands fa-linkedin-in"></i></span><span>Linkedin</span></a></li>
-  </ul>
+    </ul>
   </section>
 
-  
+
   <section id="section2">
-    <a href="#section1" id="buttonUp">⇧</a>
 
-      <div id="container">	
-        <div class="product-details">
+    <span class="invsSpacing">2</span>
+
+
+    <div id="container">
+      <div class="product-details">
         <h1 class="rubrik">Avsnitt1: DARKWEB</h1>
-            <p class="summorize">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam eaque totam repellat porro delectus iste, ex, facilis laborum nulla modi autem ab amet minus eligendi mollitia optio necessitatibus nihil saepe?</p>
-     </div>
-        
+        <p class="summorize">I detta avsnitt diskuterar vi kring darkweb och dess historia. Samt problem som stöts på
+          och webbens lancering. Vi diskuterar även hur anonymiteten fungerar och hur darkweb håller sin användarbas
+          dagligen!</p>
+      </div>
+
       <div class="product-image">
-        
+
         <img src="img/kaur-kristjan-CpPF4W5PB1c-unsplash.jpg">
-        
-      
-      <div class="info">
-        <h2> Description</h2>
-        <ul>
-          <li><strong>Host : </strong>Allan </li>
-          <li><strong>Guests : </strong>Nasser, Fredrik, Emil</li>
-          <li><strong>Ålders Gräns: </strong>16+</li>
-          <li><strong>Material: </strong>Iphone Microphone</li>
-          
-        </ul>
+
+
+        <div class="info">
+
+          <h2> Description</h2>
+          <ul>
+            <li><strong>Host : </strong>Allan </li>
+            <li><strong>Guests : </strong>Nasser, Fredrik, Emil</li>
+            <li><strong>Ålders Gräns: </strong>16+</li>
+            <li><strong>Material: </strong>Iphone Microphone</li>
+
+          </ul>
+        </div>
+
       </div>
-      </div>
-      
-      </div>
+     
+    </div>
+    <h3><a href="#section3" id="buttonSectionTwo">⇩</a></h3>
+
+
   </section>
+
+
+  <section id="section3">
+    <span class="invsSpacing">2</span>
+    <audio id="player" src="img/tkh.mp3"></audio>
+    <div class="player">
+      <div class="controlAudio">
+        <i class="fas fa-play" id="playbtn"></i>
+      </div>
+      <div class="infoAudio">
+        Avsnitt 1 - Darkweb
+        <div class="bar">
+          <div id="progress"></div>
+        </div>
+      </div>
+
+      <div id="current">0:00</div>
+    </div>
+
+    <script src="./player.js"></script>
+    <h3><a href="#section1" id="buttonSectionThree">⇧</a></h3>
+  </section>
+
 
 </body>
+
 </html>

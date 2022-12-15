@@ -13,8 +13,9 @@ video {
     height: 100%;
     max-width: 100%;
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
-    background-color: rgb(242, 238, 238);
+    background-color: rgb(0, 0, 0);
     z-index: -1;
     
   }
@@ -41,11 +42,21 @@ video {
     color: rgba(202, 159, 59, 0.793);
     text-transform: uppercase;
     letter-spacing: 20px;
-    line-height: 1.2;
     font-size: 50px;
     text-align: center;
    
   }
+  h3{
+    font-family:  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgba(202, 159, 59, 0.793);
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    line-height: 2.2;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+  }
+
   span {
     display: block;
     font-size: 10vw;
@@ -110,7 +121,7 @@ section{
 }
 
 
-#buttonDown{
+#buttonSectionOne{
 margin-top: 50px;
 font-family: 'Courier New', Courier, monospace;
 border: 0;
@@ -133,9 +144,15 @@ text-decoration: none;
     opacity: 1;
     background-color: #000;
   }
+  .invsSpacing{
+    font-size: 60px;
+    color: transparent;
+  }
 
-  #buttonUp{
-    margin-top: 0;
+
+
+  #buttonSectionTwo{
+    margin-top: 0;  
     border: 0;
     border-radius: 100px ;
     font-family: 'Courier New', Courier, monospace;
@@ -175,7 +192,7 @@ text-decoration: none;
     text-align: left;
     overflow: hidden;
     padding: 50px;
-    height: 100%;
+    height: 90%;
     float: left;
     width: 40%;
   
@@ -249,7 +266,99 @@ text-decoration: none;
   
   .product-image:hover img {transition: all 0.3s ease-out;}
   .product-image:hover img {transform: scale(1.2, 1.2);};
+      
+  
 
-   
 
+
+  /* SECTION 3 audio player*/
+
+  #section3{
+    background-color: #FFF;
+  }
+
+  #buttonSectionThree{
+    margin-top: 0;  
+    border: 0;
+    border-radius: 100px ;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px solid transparent;
+    padding-top:10px ;
+    padding-bottom: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent ;
+    font-size: 70px;
+    color: rgba(202, 159, 59, 0.793);
+    text-decoration: none;
+    align-items: center;
+    }
+  .player {
+    width: 50%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    grid-gap: 16px;
+    padding: 8px 24px;
+    position: relative;
+    border-radius: 64px;
+    margin-left: 46vh;
+    margin-top: 50px;
+}
+
+
+.controlAudio,#current {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 16px;
+}
+
+#playbtn {
+    font-size: 24px;
+    color: rgba(202, 159, 59, 0.793);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(202, 159, 59, 0.793);
+    cursor: pointer;
+}
+
+#playbtn:hover {
+    -webkit-text-fill-color: rgba(202, 159, 59, 0.793);
+}
+
+.infoAudio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    color: rgba(202, 159, 59, 0.793);
+}
+
+#current {
+    text-align: right;
+    color: rgba(202, 159, 59, 0.793);
+
+}
+
+.bar {
+    --space: -4px;
+    background-color: rgba(202, 159, 59, 0.793);
+    overflow: hidden;
+    left: var(--space);
+    right: var(--space);
+    top: var(--space);
+    bottom: var(--space);
+    position: absolute;
+    border-radius: 64px;
+    z-index: -2;
+}
+
+#progress {
+    display: blcok;
+    width: var(--progress,0%);
+    background-color: rgba(202, 159, 59, 0.793);
+    transition: all 1s linear;
+    height: 100%;
+}
   /*NAVBAR SECTION 2 */
