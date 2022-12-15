@@ -74,8 +74,45 @@
 
 
   <section id="section3">
-    <span class="invsSpacing">2</span>
-    <audio id="player" src="img/tkh.mp3"></audio>
+
+<div class="audioContainer">
+    <div class="audio">
+      <div class="progress"></div>
+
+      <div class="info">
+        <div class="thumbnail">
+          <img src="img/kaur-kristjan-CpPF4W5PB1c-unsplash.jpg" alt="" />
+          <span class="play_pause">
+            <i class="bx bx-play-circle"></i>
+          </span>
+        </div>
+
+        <div class="volume">
+          <span class="volume-down" > - </span>
+          <div class="volume-progress">
+            <div class="volume-bar"></div>
+          </div>
+          <span class="volume-up"> + </span>
+        </div>
+
+        <div class="action">
+          <div class="song">
+            <div class="name">Avsnitt 1</div>
+            <div class="singer">The DarkWeb</div>
+          </div>
+
+          
+            <span class="current">0:00</span>
+            <div class="time">
+            /
+            <span class="duration">0:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- <span class="invsSpacing">2</span>
+    <audio controls id="player" src="img/tkh.mp3"></audio>
     <div class="player">
       <div class="controlAudio">
         <i class="fas fa-play" id="playbtn"></i>
@@ -90,10 +127,15 @@
       <div id="current">0:00</div>
     </div>
 
-    <script src="./player.js"></script>
+    <script src="./player.js"></script>--->
     <h3><a href="#section1" id="buttonSectionThree">⇧</a></h3>
   </section>
+  <audio
+  hidden
+  src="img/tkh.mp3"
+></audio>
 
+<script src="player.js"></script>
 
 </body>
 

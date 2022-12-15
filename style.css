@@ -141,7 +141,6 @@ text-decoration: none;
 
   /*SECTION 2 */
   #section2{
-    opacity: 1;
     background-color: #000;
   }
   .invsSpacing{
@@ -274,7 +273,8 @@ text-decoration: none;
   /* SECTION 3 audio player*/
 
   #section3{
-    background-color: #FFF;
+    background-color: #fff;
+    opacity: 1;
   }
 
   #buttonSectionThree{
@@ -293,7 +293,7 @@ text-decoration: none;
     text-decoration: none;
     align-items: center;
     }
-  .player {
+ /* .player {
     width: 50%;
     background-color: #000;
     display: grid;
@@ -360,5 +360,174 @@ text-decoration: none;
     background-color: rgba(202, 159, 59, 0.793);
     transition: all 1s linear;
     height: 100%;
+}*/
+
+.audioContainer{
+  margin-top: 20%;
+}
+.audio {
+  width: 480px;
+  height: 500px;
+  position: relative;
+}
+
+.audio .progress {
+  position: absolute;
+  top: 240px;
+  left: 72vh;
+  z-index: 1;
+}
+
+.audio .progress span {
+  background-color: rgba(202, 159, 59, 0.793);
+  width: 50px;
+  height: 5px;
+  border-radius: 4px;
+  display: block;
+  position: absolute;
+  transform-origin: 240px;
+  transform: rotateZ(calc(var(--i) * 3.6deg));
+}
+
+.audio .progress span.active {
+  background-color:#fff;
+}
+
+.audio .progress span:hover {
+  background-color: rgba(255, 255, 255, 0.793);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.audio .current{
+  font-size: 125px;
+  padding-left: 105px;
+  margin-bottom: -400px;
+  margin-top: 40px;
+}
+
+.audio .info {
+  position: absolute;
+  z-index: 2;
+  width: 420px;
+  height: 420px;
+  top: 30px;
+  left: 118.5vh;
+  backdrop-filter: blur(20px) brightness(125%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.audio .thumbnail {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 3px solid rgba(255, 179, 0, 0.793);
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.audio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.audio .play_pause {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  font-size: 5rem;
+  cursor: pointer;
+  transform: scale(2);
+  opacity: 0;
+}
+
+.audio .thumbnail:hover .play_pause {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.audio .volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2px ;
+  gap: 12px;
+  padding-top: 50px;
+}
+
+.audio .volume span {
+  width: 54px;
+  height: 0px;
+  background-color:rgba(255, 179, 0, 0.793);
+  color: rgba(255, 179, 0, 0.793);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 60;
+  transform: scale(1);
+}
+
+.audio .volume:hover span {
+  background-color: transparent;
+  transform: scale(1);
+}
+
+.audio .volume span {
+  background-color:transparent;
+}
+
+.audio .volume-progress {
+  width: 150px;
+  height: 8px;
+  background-color:rgba(255, 179, 0, 0.793);
+  border-radius: 8px;
+}
+
+.audio .volume-bar {
+  width: 50%;
+  height: 8px;
+  background-color:rgba(255, 209, 102, 0.793);
+  border-radius: 8px;
+}
+
+.audio .song {
+  text-align: center;
+  margin-block-end: 0.75rem;
+  color: #fff;
+}
+
+.audio .song .name {
+  line-height: 1.5rem;
+  font-size: 30px;
+  font-weight: 60;
+  
+}
+
+.audio .song .singer {
+  font-size: 20px;
+  font-weight: 60;
+}
+
+.audio .time {
+  text-align: center;
+  color: transparent;
+  font-size: 20px;
 }
   /*NAVBAR SECTION 2 */
