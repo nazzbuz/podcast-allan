@@ -321,7 +321,7 @@ text-decoration: none;
     border-radius: 100px ;
     font-family: 'Courier New', Courier, monospace;
     border:2px solid transparent;
-    padding-top:10px ;
+    padding-top:100px ;
     padding-bottom: 2px;
     outline: none;
     cursor: pointer;
@@ -344,7 +344,7 @@ text-decoration: none;
 .audio .progress {
   position: absolute;
   top: 240px;
-  left: 72vh;
+  left: 74.7vh;
   z-index: 1;
 }
 
