@@ -1,4 +1,42 @@
+#leftbar {
+  width: 120px;
+  height: 100%;
+  margin-top: 0%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  padding-left: 0%;
+  padding-top: 22%;
+  z-index: 1;
+  
+  } 
+  #home{
+    font-size: xx-large;
+  }
+  #phone{
+    font-size: x-large;
+  }
+  #about{
+    font-size: x-large;
+  }
 
+  .links {
+    display:inline-block;
+    width: 75px;
+    height: 55px;
+    color: rgba(202, 159, 59, 0.793);
+    text-align: center;    
+    line-height: 55px;    
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+    left: 0px;
+    z-index: 1;
+    }
+
+   
 
 video {
     object-fit:cover;
@@ -387,6 +425,8 @@ text-decoration: none;
   position: absolute;
   transform-origin: 240px;
   transform: rotateZ(calc(var(--i) * 3.6deg));
+  right: -26px;
+  top: 70px;
 }
 
 .audio .progress span.active {
@@ -419,6 +459,8 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  left: 1152px;
+  top: 100px;
 }
 
 
@@ -431,6 +473,7 @@ text-decoration: none;
   border: 3px solid rgba(255, 179, 0, 0.793);
   overflow: hidden;
   margin-bottom: 1rem;
+  top: 154px;
 }
 
 .audio img {
