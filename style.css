@@ -349,7 +349,6 @@ text-decoration: none;
 }
 
 
- @supports not (display:block){display:grid
 
 
 
@@ -510,4 +509,3 @@ text-decoration: none;
   color: transparent;
   font-display: None;
 }
- }
