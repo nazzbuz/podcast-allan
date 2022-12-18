@@ -348,13 +348,18 @@ text-decoration: none;
   z-index: 1;
 }
 
+
+ @supports not (display:block){display:grid
+
+
+
 .audio .progress span {
   background-color: rgba(202, 159, 59, 0.793);
   width: 50px;
   height: 6px;
-  border-radius: 40x;
+  border-radius: 40px;
   display: block;
-  position: relative;
+  position: absolute;
   transform-origin: 240px;
   transform: rotateZ(calc(var(--i) * 3.6deg));
   right: -26px;
@@ -505,5 +510,4 @@ text-decoration: none;
   color: transparent;
   font-display: None;
 }
-
-  /*NAVBAR SECTION 2 & 3*/
+ }
