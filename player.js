@@ -10,9 +10,6 @@
   }
 )();
 
-/**
-* Audio player controls
-*/
 let audio = document.querySelector("audio");
 let play_pause = document.querySelector(".play_pause");
 let duration = document.querySelector(".duration");
@@ -58,9 +55,6 @@ audio.addEventListener("timeupdate", () => {
   list_span[position].classList.add("active");
 });
 
-/**
-* Volume controll
-*/
 audio.volume = 0.5;
 
 volume_span.forEach((element) => {
@@ -87,23 +81,17 @@ volume_span.forEach((element) => {
   }); 
 });
 
-/**
-* Seeking
-*/
 
 list_span.forEach((element, index) => {
   element.addEventListener("click", (e) => {
-      //remove active classes
       list_span.forEach((e) => {
           e.classList.remove("active");
       })
 
-      //add active class to selected range
       for (k = 0; k <= index; k++){
           list_span[k].classList.add("active");
       }
 
-      //set current time
       let time_go = (index * audio.duration) / 100;
       audio.currentTime = time_go;
   })
