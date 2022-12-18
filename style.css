@@ -354,7 +354,7 @@ text-decoration: none;
   height: 6px;
   border-radius: 40x;
   display: block;
-  position: absolute;
+  position: relative;
   transform-origin: 240px;
   transform: rotateZ(calc(var(--i) * 3.6deg));
   right: -26px;
