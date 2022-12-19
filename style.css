@@ -10,16 +10,19 @@
   padding-left: 0%;
   padding-top: 22%;
   z-index: 1;
-  
   } 
-  #home{
+  #home a{
     font-size: xx-large;
+    
   }
-  #phone{
+  
+  #phone a{
     font-size: x-large;
+ 
   }
   #about{
     font-size: x-large;
+    
   }
 
   .links {
@@ -33,7 +36,7 @@
     font-size: larger;
     padding: 10px;
     left: 0px;
-    z-index: 1;
+   
     }
 
    
