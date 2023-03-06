@@ -162,6 +162,7 @@ section{
 }
 
 
+
 #buttonSectionOne{
 margin-top: 50px;
 font-family: 'Courier New', Courier, monospace;
@@ -173,7 +174,7 @@ padding-bottom: 2px;
 outline: none;
 cursor: pointer;
 background-color: transparent ;
-font-size: 70px;
+font-size: 30px;
 color: rgba(202, 159, 59, 0.793);
 text-decoration: none;
 }
@@ -202,7 +203,7 @@ text-decoration: none;
     outline: none;
     cursor: pointer;
     background-color: transparent ;
-    font-size: 70px;
+    font-size: 30px;
     color: rgba(202, 159, 59, 0.793);
     text-decoration: none;
     align-items: center;
@@ -218,11 +219,13 @@ text-decoration: none;
     width: 800px;
     position: flex;
     margin-top: 15vh;
-
-  
-    
   }
-  
+
+  #playAudio{
+    color: rgba(202, 159, 59, 0.793);
+    padding-left: 20px;
+  }
+
   .rubrik{
     padding-left:20px;
   }
@@ -329,7 +332,7 @@ text-decoration: none;
     outline: none;
     cursor: pointer;
     background-color: transparent ;
-    font-size: 70px;
+    font-size: 30px;
     color: rgba(202, 159, 59, 0.793);
     text-decoration: none;
     align-items: center;
@@ -381,7 +384,7 @@ text-decoration: none;
 .audio .current{
   font-size: 125px;
   margin-bottom: -30px;
-  margin-top: 40px;
+  margin-top: 40px; 
   
 }
 
