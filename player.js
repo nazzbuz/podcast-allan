@@ -107,6 +107,3 @@ audio.addEventListener("ended", e => {
       e.classList.remove("active");
   })
 })
-
-
-

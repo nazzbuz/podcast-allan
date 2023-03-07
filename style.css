@@ -7,12 +7,13 @@
   padding-left: 0%;
   padding-top: 22%;
   z-index: 1;
-  list-style-type: none;
   position: fixed;
-  top: 600px;
-  left: -60px;
+  top: 590px;
+  left: -20px;
   transform: translateY(-50%);
-  } 
+  border-left: 1px solid black;
+}
+
   #home a{
     font-size: xx-large;
     
@@ -223,11 +224,6 @@ text-decoration: none;
     margin-top: 15vh;
   }
 
-  #playAudio{
-    color: white;
-    padding-left: 20px;
-  }
-
   .rubrik{
     padding-left:20px;
   }
@@ -357,7 +353,9 @@ text-decoration: none;
 }
 
 
-
+#imageBackground{
+  color: white;
+}
 
 
 .audio .progress span {
