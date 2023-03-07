@@ -2,14 +2,16 @@
   width: 120px;
   height: 100%;
   margin-top: 0%;
-  position: fixed;
-  top: 0;
-  left: 0;
   background-color: transparent;
   font-family: Arial, sans-serif;
   padding-left: 0%;
   padding-top: 22%;
   z-index: 1;
+  list-style-type: none;
+  position: fixed;
+  top: 600px;
+  left: -60px;
+  transform: translateY(-50%);
   } 
   #home a{
     font-size: xx-large;
@@ -96,14 +98,6 @@ video {
     font-size: 50px;
     text-align: center;
     margin-top: 10%;
-  }
-
-  .ulList {
-    list-style-type: none;
-    position: fixed;
-    top: 50%;
-    left: -60px;
-    transform: translateY(-50%);
   }
 
   span {
