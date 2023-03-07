@@ -98,7 +98,7 @@ video {
     margin-top: 10%;
   }
 
-  #ulList {
+  .ulList {
     list-style-type: none;
     position: fixed;
     top: 50%;
